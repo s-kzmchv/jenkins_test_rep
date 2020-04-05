@@ -58,7 +58,7 @@ N = 10000
 P = np.array([[0.8, 0.1, 0.1],
               [0.4, 0.4, 0.2],
               [0.0, 0.0, 1.0], ])
-
+tmp_test=0
 
 def get_im(start):
     start = int(start)
