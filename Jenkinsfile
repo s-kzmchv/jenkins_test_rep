@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker {image 'python:slim'} }
+    agent { docker {image 'skzmchv/jenkins_test_image:1.0'} }
     stages {
         stage('build') {
             steps {
