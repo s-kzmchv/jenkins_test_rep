@@ -3,8 +3,13 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python3 test.py'
+                sh 'python3 app.py compare'
             }
         }
+	stage('Test') {
+	    steps {
+		sh 'robot test.robot'
+	    }
+	}
     }
 }
