@@ -14,3 +14,8 @@ Get the number of steps to an absorbing state by simulation with approximations
 Compare the theoretical number and simulation result
     Compare
     Expect answer  Success
+
+Start calculation with the wrong start state
+    Get theoretical  3
+    Expect answer  Wrong start
+
